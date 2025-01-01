@@ -33,3 +33,12 @@ td{
     display:flex;
     justify-content:space-between;
 }
+
+@media only screen and (max-width:600px){
+    .todo-table{
+        width:80vw;
+    }
+    button:hover{
+        scale:initial;
+    }
+}
